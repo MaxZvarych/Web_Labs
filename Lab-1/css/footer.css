@@ -1,0 +1,151 @@
+.footer {
+  font-size: 1rem;
+  width: 1600px;
+  height: 372px;
+  margin: 133px auto 0 auto;
+}
+
+.line_footer {
+  width: 100rem;
+  height: 2px;
+}
+
+.footer_paragraph {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 100px auto 46px 240px;
+}
+
+.footer_buutons_chat {
+  margin: -300px 243px 41px 947px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_footer {
+  width: 405px;
+  height: 52px;
+  left: 240px;
+  top: 2874px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+
+.footer_info {
+  margin-top: 20px;
+  width: 584px;
+  justify-self: flex-start;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.footer_rights {
+  margin-top: 75px;
+  width: 360px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+
+.learn_more_button {
+  width: 170px;
+  height: 60px;
+  background: #f063b8;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn_more_text {
+  width: 96px;
+  height: 29px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.125rem;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.footer__request-demo {
+  width: 210px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  background: url(../images/Vector_74.svg) url(../images/Polygon_1.svg)
+    no-repeat right;
+  border-radius: 50px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.125rem;
+  line-height: 160%;
+}
+
+.chat_sign_footer {
+  justify-self: flex-end;
+  align-self: flex-end;
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4px;
+  height: 4px;
+  background: #ffffff;
+}
+
+.sign_footer {
+  margin-left: -45px;
+}
+
+@media screen and (max-width: 1300px) {
+  .footer {
+    font-size: 1rem;
+    max-width: 1300px;
+    height: 372px;
+    margin: 133px auto 0 auto;
+  }
+  .footer_paragraph {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 100px 30px 10px 30px;
+  }
+  .footer_buttons {
+    margin-left: -400px;
+  }
+  .footer__request-demo {
+    margin-right: 400px;
+  }
+  .chat_sign_footer {
+    margin-right: 400px;
+  }
+  .line_footer {
+    width: 100%;
+    height: 2px;
+  }
+}

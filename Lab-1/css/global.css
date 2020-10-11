@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+  background: #fff;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #4b5d68;
+  max-width: 100rem;
+}
+
+a {
+  text-decoration: none;
+  color: #505f98;
+}
+
+button {
+  border: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+    background: #fff;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #4b5d68;
+  }
+}

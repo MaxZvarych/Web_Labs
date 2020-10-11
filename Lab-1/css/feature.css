@@ -1,0 +1,339 @@
+.features_title {
+  margin-top: 150px;
+  width: 405px;
+  height: 52px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 130%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #212353;
+}
+
+.features_info {
+  margin-top: 50px;
+  width: 584px;
+  height: 58px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 160%;
+  text-align: center;
+  color: #4b5d68;
+}
+.feature_section {
+  margin-top: 100px;
+  max-width: 1117px;
+  height: 766px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feature_search_data {
+  display: flex;
+  background: url(../images/Rectangle_39.svg) no-repeat;
+  height: 358px;
+}
+
+.feature_24_hours {
+  display: flex;
+  background: url(../images/Rectangle_40.svg) no-repeat;
+  height: 358px;
+}
+
+.feature_print_out {
+  display: flex;
+  background: url(../images/Rectangle_41.svg) no-repeat;
+  height: 358px;
+}
+
+.feature_security_code {
+  display: flex;
+  background: url(../images/Rectangle_42.svg) no-repeat;
+  height: 358px;
+}
+
+.feature_image {
+  justify-content: center;
+  margin-left: -40px;
+}
+
+.feature_info {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature_header {
+  margin-top: 49px;
+  width: 200px;
+  height: 50px;
+  left: 500.29px;
+  top: 1922px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+
+.feature_text {
+  margin-top: 10px;
+  margin-left: -10px;
+  width: 200px;
+  height: 160px;
+  left: 500.29px;
+  top: 1992px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.learn_more {
+  display: flex;
+}
+
+.learn_more_text_black {
+  width: 87px;
+  height: 26px;
+  left: 500.29px;
+  top: 2172px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+
+.vector_lm {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+  .feature_section {
+    margin-top: 100px;
+    max-width: 1300px;
+    height: 766px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .feature_search_data {
+    display: flex;
+    background: url(../images/Rectangle_39.svg) no-repeat;
+    width: 450px;
+    height: 358px;
+    margin-left: 30px;
+  }
+
+  .feature_24_hours {
+    display: flex;
+    background: url(../images/Rectangle_40.svg) no-repeat;
+    height: 358px;
+    width: 450px;
+  }
+
+  .feature_print_out {
+    display: flex;
+    background: url(../images/Rectangle_41.svg) no-repeat;
+    height: 358px;
+    width: 450px;
+    margin-left: 30px;
+  }
+
+  .feature_security_code {
+    display: flex;
+    background: url(../images/Rectangle_42.svg) no-repeat;
+    height: 358px;
+    width: 450px;
+  }
+  .feature_image {
+    justify-content: center;
+    margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .feature_section {
+    margin-top: -10px;
+    max-width: 650px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .feature_search_data {
+    display: flex;
+    background: url(../images/Rectangle_39.svg) no-repeat;
+    width: 205px;
+    height: 458px;
+    margin-left: 30px;
+    background-size: 205px 458px;
+  }
+
+  .feature_24_hours {
+    display: flex;
+    background: url(../images/Rectangle_40.svg) no-repeat;
+    height: 458px;
+    width: 205px;
+    background-size: 205px 458px;
+  }
+
+  .feature_print_out {
+    display: flex;
+    background: url(../images/Rectangle_41.svg) no-repeat;
+    height: 458px;
+    width: 205px;
+    margin-top: -80px;
+    background-size: 205px 458px;
+    margin-left: 30px;
+  }
+
+  .feature_security_code {
+    display: flex;
+    background: url(../images/Rectangle_42.svg) no-repeat;
+    background-size: 205px 458px;
+    margin-top: -80px;
+    height: 458px;
+    width: 205px;
+  }
+  .feature_image {
+    width: 150px;
+    height: 140px;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: -60px;
+  }
+
+  .feature_info {
+    margin-top: 90px;
+    margin-left: 10px;
+  }
+
+  .feature_header {
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .feature_text {
+    margin-top: -10px;
+    width: 100px;
+    height: 120px;
+    font-size: 0.65rem;
+  }
+
+  .learn_more {
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features_title {
+    width: 320px;
+    height: 52px;
+    font-size: 2rem;
+  }
+
+  .features_info {
+    width: 320px;
+    height: 58px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .feature_section {
+    margin-top: -10px;
+    max-width: 450px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .feature_search_data {
+    display: flex;
+    background: url(../images/Rectangle_39.svg) no-repeat;
+    width: 135px;
+    height: 458px;
+    margin-left: 30px;
+    background-size: 135px 458px;
+  }
+
+  .feature_24_hours {
+    display: flex;
+    background: url(../images/Rectangle_40.svg) no-repeat;
+    height: 458px;
+    width: 135px;
+    background-size: 135px 458px;
+  }
+
+  .feature_print_out {
+    display: flex;
+    background: url(../images/Rectangle_41.svg) no-repeat;
+    height: 458px;
+    width: 135px;
+    margin-top: -200px;
+    background-size: 135px 458px;
+    margin-left: 30px;
+  }
+
+  .feature_security_code {
+    display: flex;
+    background: url(../images/Rectangle_42.svg) no-repeat;
+    background-size: 135px 458px;
+    margin-top: -200px;
+    height: 458px;
+    width: 135px;
+  }
+  .feature_image {
+    display: none;
+    width: 50px;
+    height: 60px;
+    justify-content: center;
+    margin-top: 210px;
+    margin-left: -60px;
+  }
+
+  .feature_info {
+    margin-top: 90px;
+    margin-left: 30px;
+  }
+
+  .feature_header {
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .feature_text {
+    margin-top: -10px;
+    width: 100px;
+    height: 110px;
+    font-size: 0.5rem;
+  }
+
+  .learn_more {
+    margin-left: -10px;
+    margin-top: -20px;
+  }
+}

@@ -1,0 +1,20 @@
+@import "./global.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./description.css";
+@import "./feature.css";
+/* 
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  color: #091133;
+  margin-bottom: 16px;
+  line-height: 48px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+  margin-top: 6px;
+} */
