@@ -18,11 +18,3 @@ button {
 .container {
   margin: 0 auto;
 }
-
-@media screen and (max-width: 1600px) {
-  body {
-    background: #fff;
-    font-family: "Roboto", "Arial", sans-serif;
-    color: #4b5d68;
-  }
-}
