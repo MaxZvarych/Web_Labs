@@ -26,6 +26,9 @@
   line-height: 130%;
   color: #212353;
 }
+.description_image:hover {
+  animation: rotate 60s infinite;
+}
 
 .description_text {
   margin-left: 62px;

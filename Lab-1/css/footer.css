@@ -125,7 +125,7 @@
 @media screen and (max-width: 1300px) {
   .footer {
     font-size: 1rem;
-    max-width: 1300px;
+    max-width: 750px;
     height: 372px;
     margin: 133px auto 0 auto;
   }
@@ -133,19 +133,112 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 100px 30px 10px 30px;
-  }
-  .footer_buttons {
-    margin-left: -400px;
+    margin: 30px 30px 10px 30px;
   }
   .footer__request-demo {
-    margin-right: 400px;
+    height: 60px;
   }
-  .chat_sign_footer {
-    margin-right: 400px;
+
+  .footer_buutons_chat {
+    margin-left: 350px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer_buttons {
+    justify-content: flex-start;
   }
   .line_footer {
     width: 100%;
     height: 2px;
+  }
+  .chat_sign_footer {
+    align-self: flex-end;
+    margin-right: -180px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer {
+    font-size: 1rem;
+    max-width: 350px;
+    height: 372px;
+    margin: 30px 10px 0 10px;
+  }
+  .footer_paragraph {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 10px 30px 10px 70px;
+  }
+  .footer_info {
+    width: 145px;
+    font-size: 1rem;
+  }
+  .footer_buutons_chat {
+    position: relative;
+    margin: -320px 0px 100px 270px;
+  }
+  .footer_buttons {
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .chat_sign_footer {
+    width: 10px;
+    height: 10px;
+    align-self: flex-start;
+    margin-left: 150px;
+    margin-top: 110px;
+  }
+  .line_footer {
+    width: 100vw;
+    height: 4px;
+  }
+  .learn_more_button {
+    width: 90px;
+    height: 40px;
+  }
+  .learn_more_text {
+    width: 54px;
+    height: 20px;
+    font-size: 1rem;
+    line-height: 80%;
+  }
+  .footer__request-demo {
+    width: 90px;
+    height: 40px;
+    background: url(../images/Vector_74.svg) url(../images/Polygon_1.svg)
+      no-repeat right;
+    margin-left: 15px;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 80%;
+  }
+
+  .title_footer {
+    width: 205px;
+    height: 52px;
+    font-size: 1.5rem;
+    line-height: 160%;
+  }
+  .footer_rights {
+    margin-top: 40px;
+    width: 200px;
+    font-size: 0.5rem;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer_paragraph {
+    margin: 10px 30px 10px 0px;
+  }
+  .footer_buutons_chat {
+    margin-left: 110px;
+  }
+  .title_footer {
+    font-size: 1.25rem;
   }
 }
