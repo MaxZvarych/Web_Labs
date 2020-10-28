@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit film for store</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header class="header create-edit_header">
+        <div class="header__logo">
+            <img src="images/films_logo.svg" width="70px" height="70px">
+            <img src="images/circle.svg" class="header__circle" >
+        </div>
+        <nav class="header__nav create-edit__nav">
+            <ul>
+                <li ><a href="index.html">My films</a></li>
+                <li class="active"><a href="#">Edit film</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="create-edit-main">
+        <section class="create-edit-main__fields">
+            <h1 class="create-edit-main__header">Edit Film</h1>
+            <div class="feature_to_create-edit">
+                <label for="typedfilmname" class="film_feature_title">Title:</label>
+                <input type="text" placeholder="Type filmname to edit" id="typedfilmname">
+            </div>
+            <div class="feature_to_create-edit">
+                <label for="reward" class="film_feature_title">Reward for current film:</label>
+                <select id="reward" name="reward">
+                    <option value="Best music" selected>Best music</option>
+                    <option value="Best female role" >Best female role</option>
+                    <option value="Best male role" >Best male role</option>
+                    <option value="Best directed film" >Best directed film</option>
+                    <option value="Best special effects" >Best special effects</option>
+                </select>
+            </div>
+            <div class="feature_to_create-edit">
+                <label for="typedrewardyear" class="film_feature_title">Reward year:</label>
+                <input type="number" placeholder="Type film's reward year" id="typedrewardyear">
+            </div>
+            <div class="feature_to_create-edit">
+                <label for="typedduration" class="film_feature_title">Duration:</label>
+                <input type="number" placeholder="Type film's duration" id="typedduration">
+            </div>
+            <div class="feature_to_create-edit">
+                <label for="typed_num_of_responces" class="film_feature_title">Number of responses:</label>
+                <input type="number" placeholder="Type film's number of responses" id="typed_num_of_responces">
+            </div>
+            <button class="create-edit-main__submit_button" id= "edit_btn">Edit</button>
+        </section>
+    </section>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p class="popup-message"> <b>Oh snap!</b> Change a few things up and try submitting again!</p>
+            <span class="close-popup">&times;</span>
+        </div>
+    </div>
+    <script src="js/popup-edit.js"></script>
+</body>
+</html>

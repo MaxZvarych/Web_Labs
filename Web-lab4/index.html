@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films.store</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="images/films_logo.svg" width="70px" height="70px">
+            <img src="images/circle.svg" class="header__circle" >
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li class="active"><a href="#">My films</a></li>
+                <li><a href="create-film.html">Create films</a></li>
+            </ul>
+        </nav>
+        <form class="header__form">
+            <input type="text" placeholder="Type filmname to find" id="typedfilms">
+            <button class="header-form__search" id="SearchButton">Search</button>
+            <button class="header-form__clear" onclick="cleanfilms()">Clear</button>
+        </form>
+    </header>
+    <section class="main-part">
+        <aside class="create-films">
+            <h1 class="create__title">Films' management</h1>
+            <div class="sort-function">
+                <p class="sort-function__paragraph">Sort by the <br> film duration </p>
+                <input type="checkbox" class="sort" onclick="sortfilms()">
+            </div>
+            <div class="count-function">
+                <p class="count-function__paragraph">Count total number of responces</p>
+                <button class="count" onclick="countFilmsResponces()">Count</button>
+                <div class="total-responces">
+                    <p class="total-expenses__paragraph">Total responces</p>
+                    <p class="total-expenses__sum" id="resultResponces">0</p>
+                </div>
+            </div>
+        </aside>
+        <section class="my-films" id="myfilms"> 
+        </section>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

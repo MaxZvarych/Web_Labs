@@ -1,0 +1,7 @@
+@import "./global-styles.css";
+
+@import "./header.css";
+@import "./create-films.css";
+@import "./my-films.css";
+@import "./create-edit.css";
+@import "./popup.css";
