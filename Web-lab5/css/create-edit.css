@@ -1,0 +1,52 @@
+.create-edit-main {
+  display: flex;
+  margin-top: 108px;
+}
+
+.create-edit-main__fields {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/background1.svg);
+}
+
+.create-edit-main__header {
+  align-self: center;
+  font-size: 30px;
+}
+
+.security_feature_title {
+  font-size: 18px;
+}
+
+.feature_to_create-edit {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#typedownername {
+  border-radius: 10px;
+  height: 30px;
+  width: 300px;
+}
+
+#level_of_risk {
+  height: 30px;
+  border-radius: 10px;
+}
+
+#typedprice {
+  height: 20px;
+  border-radius: 10px;
+}
+
+#bidding_trend {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.create-edit-main__submit_button {
+  margin-top: 20px;
+  border-radius: 20px;
+}

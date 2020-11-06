@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit security for store</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header class="header create-edit_header">
+        <div class="header__logo">
+            <img src="images/securities_logo2.svg" width="70px" height="70px">
+            <img src="images/circle.svg" class="header__circle" >
+        </div>
+        <nav class="header__nav create-edit__nav">
+            <ul>
+                <li ><a href="index.html">My securities</a></li>
+                <li class="active"><a href="#">Edit securities</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="create-edit-main">
+        <section class="create-edit-main__fields">
+            <h1 class="create-edit-main__header">Edit security</h1>
+            <div class="feature_to_create-edit">
+                <label for="typedownername" class="security_feature_title">Owner's name:</label>
+                <input type="text" placeholder="Type owner's name to create" id="typedownername">
+            </div>
+            <div class="feature_to_create-edit">
+                <label for="level_of_risk" class="security_feature_title">Level of risk for current security:</label>
+                <select id="level_of_risk" name="level_of_risk">
+                    <option value="ULTRAHIGH" selected>ULTRAHIGH</option>
+                    <option value="HIGH" >HIGH</option>
+                    <option value="MEDIUM" >MEDIUM</option>
+                    <option value="LOW" >LOW</option>
+                </select>
+            </div>
+            <div class="feature_to_create-edit">
+                <label for="bidding_trend" class="security_feature_title">Bidding trend for current security:</label>
+                <select id="bidding_trend" name="bidding_trend">
+                    <option value="ASCENDING" selected>Ascending</option>
+                    <option value="DESCENDING" >Descending</option>
+                </select>
+            </div>
+            <div class="feature_to_create-edit"> 
+                <label for="typedprice" class="security_feature_title">Price:</label>
+                <input type="number" placeholder="Type security's price" id="typedprice">
+            </div>
+            <button class="create-edit-main__submit_button" id="edit_btn">Edit</button>
+        </section>
+    </section>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p class="popup-message"> <b>Oh snap!</b> Change a few things up and try submitting again!</p>
+            <span class="close-popup">&times;</span>
+        </div>
+    </div>
+    <script src="js/popup-edit.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>securities.store</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="images/securities_logo2.svg" width="70px" height="70px">
+            <img src="images/circle.svg" class="header__circle" >
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li class="active"><a href="#">My securities</a></li>
+                <li><a href="create-security.html">Create securities</a></li>
+            </ul>
+        </nav>
+        <form class="header__form">
+            <input type="text" placeholder="Type owner's name to find" id="typedsecurities">
+            <button class="header-form__search" id="SearchButton">Search</button>
+            <button class="header-form__clear" onclick="cleansecurities()">Clear</button>
+        </form>
+    </header>
+    <section class="main-part">
+        <aside class="create-securities">
+            <h1 class="create__title">Securities' management</h1>
+            <div class="sort-function">
+                <p class="sort-function__paragraph">Sort by the <br> security's price </p>
+                <input type="checkbox" class="sort" id="sort_securities">
+            </div>
+            <div class="count-function">
+                <p class="count-function__paragraph">Count total number of prices</p>
+                <button class="count" id="count_btn" >Count</button>
+                <div class="total-responces">
+                    <p class="total-expenses__paragraph">Total price</p>
+                    <p class="total-expenses__sum" id="resultResponces">0</p>
+                </div>
+            </div>
+        </aside>
+        <section class="my-securities" id="mysecurities"> 
+        </section>
+    </section>
+    <script src="js/script.js" type="module">
+    </script>
+</body>
+</html>
